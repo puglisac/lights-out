@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`click works 1`] = `
+<DocumentFragment>
+  <table
+    class="Board"
+  >
+    <tbody />
+  </table>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <table
+    class="Board"
+  >
+    <tbody />
+  </table>
+</DocumentFragment>
+`;

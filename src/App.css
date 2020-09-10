@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+.App-header{
+  text-align: center;
+  color: yellow;
+  background-color: gray;
+  margin: 0 25% 0 25%;
+  text-shadow: 0 0 10px yellow;
+
+
+}
+.App-out{
+  color: yellow;
+  text-shadow: none;
+  animation: letter-flicker 2s linear infinite;
+}
+
+@keyframes letter-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 10px yellow;;
+  }
+  
+  2% {
+    opacity:1;
+    text-shadow: 0px 0px 10px yellow;;
+  }
+  8% {
+    opacity:0.1;
+    text-shadow: 0px 0px 10px yellow;;
+  }
+  9% {
+    opacity:1;
+    text-shadow: 0px 0px 10px yellow;;
+  }
+  12% {
+    opacity:0.1;
+    text-shadow: 0px 0px 10px yellow;;
+  }
+  20% {
+    opacity:1;
+    text-shadow: 0px 0px 10px yellow;
+  }
+  25% {
+    opacity:0.3;
+    text-shadow: 0px 0px 10px yellow;
+  }
+  30% {
+    opacity:1;
+    text-shadow: 0px 0px 10px yellow;
+  }
+  
+  70% {
+    opacity:0.7;
+    text-shadow: 0px 0px 10px yellow;
+  }
+  
+  72% {
+    opacity:0.2;
+    text-shadow:0px 0px 10px yellow;
+  }
+  
+  77% {
+    opacity:.9;
+    text-shadow: 0px 0px 10px yellow;
+  }
+  100% {
+    opacity:.9;
+    text-shadow: 0px 0px 10px yellow;
+  }
+}
